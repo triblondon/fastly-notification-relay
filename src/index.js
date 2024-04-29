@@ -23,7 +23,7 @@ async function handleRequest(event) {
     //const apiKeyEntry = await store.get("fanout-api-key")
     //if (!apiKeyEntry) return new Response("No API key available", { status: 400 })
     //const apiKey = apiKeyEntry.plaintext()
-    const apiKey = "Vb4Qdy2ufI5cuvivk1M_X42U5mHyxij5";
+    const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     const fanoutItem = {
       channel,
