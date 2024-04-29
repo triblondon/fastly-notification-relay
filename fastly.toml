@@ -1,0 +1,14 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["abetts@fastly.com"]
+cloned_from = "https://github.com/fastly/compute-starter-kit-javascript-empty"
+description = ""
+language = "javascript"
+manifest_version = 3
+name = "cli-web-sync-service"
+service_id = "Hbl3Bs0ThtGgufq3zmFxd4"
+
+[scripts]
+  build = "npm run build"
+  post_init = "npm install"
